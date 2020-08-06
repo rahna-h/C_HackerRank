@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int m,n,add1,sub1;
+    float x,y,add2,sub2;
+    scanf("%d %d", &m, &n);
+    scanf("%f %f", &x, &y);
+    add1=m+n;
+    sub1=m-n;
+    add2=x+y;
+    sub2=x-y;
+    printf("%d %d\n",add1,sub1);
+    printf("%.1f %.1f\n",add2,sub2);
+    return 0;
+}
